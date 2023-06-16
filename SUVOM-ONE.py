@@ -77,7 +77,7 @@ for xd in range(10000):
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
 
-os.system("xdg-open https://https://github.com/SuvomK ")
+os.system("xdg-open https://github.com/Suvom-Cyber/SUVOM-ONE ")
 logo = ("""  
    _____ _    ___      ______  __  __         ____  _   _ ______ 
   / ____| |  | \ \    / / __ \|  \/  |       / __ \| \ | |  ____|
